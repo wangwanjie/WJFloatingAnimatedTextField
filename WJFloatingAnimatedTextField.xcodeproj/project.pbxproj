@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EA5ABBEE598BA1E904A4CB1 /* libPods-WJFloatingAnimatedTextField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BD510365DDDDE34F2BDF38 /* libPods-WJFloatingAnimatedTextField.a */; };
+		9512F23D229BF0430031C72A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512F23C229BF0430031C72A /* AppDelegate.m */; };
+		9512F240229BF0430031C72A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512F23F229BF0430031C72A /* ViewController.m */; };
+		9512F245229BF0490031C72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9512F244229BF0490031C72A /* Assets.xcassets */; };
+		9512F248229BF0490031C72A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9512F246229BF0490031C72A /* LaunchScreen.storyboard */; };
+		9512F24B229BF0490031C72A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512F24A229BF0490031C72A /* main.m */; };
+		9512F25B229BF18F0031C72A /* WJFloatingAnimatedTextFieldConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512F253229BF18F0031C72A /* WJFloatingAnimatedTextFieldConfig.m */; };
+		9512F25C229BF18F0031C72A /* WJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512F254229BF18F0031C72A /* WJTextField.m */; };
+		9512F25D229BF18F0031C72A /* WJFloatingAnimatedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512F255229BF18F0031C72A /* WJFloatingAnimatedTextField.m */; };
+		9512F265229BF25F0031C72A /* FBKVOController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512F262229BF25F0031C72A /* FBKVOController+Extension.m */; };
+		9512F267229BF25F0031C72A /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512F264229BF25F0031C72A /* NSString+Size.m */; };
+		9512F26D229BF6DE0031C72A /* UIViewController+YJKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512F26B229BF6DD0031C72A /* UIViewController+YJKeyBoard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07BD510365DDDDE34F2BDF38 /* libPods-WJFloatingAnimatedTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJFloatingAnimatedTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB810113AAF92CA9DEC68E8 /* Pods-WJFloatingAnimatedTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJFloatingAnimatedTextField.debug.xcconfig"; path = "Target Support Files/Pods-WJFloatingAnimatedTextField/Pods-WJFloatingAnimatedTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		9512F238229BF0430031C72A /* WJFloatingAnimatedTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJFloatingAnimatedTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9512F23B229BF0430031C72A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9512F23C229BF0430031C72A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9512F23E229BF0430031C72A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9512F23F229BF0430031C72A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9512F244229BF0490031C72A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9512F247229BF0490031C72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9512F249229BF0490031C72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9512F24A229BF0490031C72A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9512F253229BF18F0031C72A /* WJFloatingAnimatedTextFieldConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJFloatingAnimatedTextFieldConfig.m; sourceTree = "<group>"; };
+		9512F254229BF18F0031C72A /* WJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTextField.m; sourceTree = "<group>"; };
+		9512F255229BF18F0031C72A /* WJFloatingAnimatedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJFloatingAnimatedTextField.m; sourceTree = "<group>"; };
+		9512F256229BF18F0031C72A /* WJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTextField.h; sourceTree = "<group>"; };
+		9512F257229BF18F0031C72A /* WJFloatingAnimatedTextFieldConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJFloatingAnimatedTextFieldConfig.h; sourceTree = "<group>"; };
+		9512F258229BF18F0031C72A /* WJFloatingAnimatedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJFloatingAnimatedTextField.h; sourceTree = "<group>"; };
+		9512F25A229BF18F0031C72A /* WJDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJDefine.h; sourceTree = "<group>"; };
+		9512F25F229BF25F0031C72A /* FBKVOController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBKVOController+Extension.h"; sourceTree = "<group>"; };
+		9512F261229BF25F0031C72A /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		9512F262229BF25F0031C72A /* FBKVOController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBKVOController+Extension.m"; sourceTree = "<group>"; };
+		9512F264229BF25F0031C72A /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		9512F26B229BF6DD0031C72A /* UIViewController+YJKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YJKeyBoard.m"; sourceTree = "<group>"; };
+		9512F26C229BF6DE0031C72A /* UIViewController+YJKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YJKeyBoard.h"; sourceTree = "<group>"; };
+		F1853D470FDB404BB6838C97 /* Pods-WJFloatingAnimatedTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJFloatingAnimatedTextField.release.xcconfig"; path = "Target Support Files/Pods-WJFloatingAnimatedTextField/Pods-WJFloatingAnimatedTextField.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9512F235229BF0430031C72A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA5ABBEE598BA1E904A4CB1 /* libPods-WJFloatingAnimatedTextField.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D02E53E8E829DFAD1D51876 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CB810113AAF92CA9DEC68E8 /* Pods-WJFloatingAnimatedTextField.debug.xcconfig */,
+				F1853D470FDB404BB6838C97 /* Pods-WJFloatingAnimatedTextField.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4529320AAF9ECAA9E7A9BE82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07BD510365DDDDE34F2BDF38 /* libPods-WJFloatingAnimatedTextField.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9512F22F229BF0430031C72A = {
+			isa = PBXGroup;
+			children = (
+				9512F23A229BF0430031C72A /* WJFloatingAnimatedTextField */,
+				9512F239229BF0430031C72A /* Products */,
+				2D02E53E8E829DFAD1D51876 /* Pods */,
+				4529320AAF9ECAA9E7A9BE82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9512F239229BF0430031C72A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9512F238229BF0430031C72A /* WJFloatingAnimatedTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9512F23A229BF0430031C72A /* WJFloatingAnimatedTextField */ = {
+			isa = PBXGroup;
+			children = (
+				9512F251229BF18F0031C72A /* Source */,
+				9512F23B229BF0430031C72A /* AppDelegate.h */,
+				9512F23C229BF0430031C72A /* AppDelegate.m */,
+				9512F23E229BF0430031C72A /* ViewController.h */,
+				9512F23F229BF0430031C72A /* ViewController.m */,
+				9512F244229BF0490031C72A /* Assets.xcassets */,
+				9512F246229BF0490031C72A /* LaunchScreen.storyboard */,
+				9512F249229BF0490031C72A /* Info.plist */,
+				9512F24A229BF0490031C72A /* main.m */,
+			);
+			path = WJFloatingAnimatedTextField;
+			sourceTree = "<group>";
+		};
+		9512F251229BF18F0031C72A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9512F25E229BF25F0031C72A /* Category */,
+				9512F259229BF18F0031C72A /* Base */,
+				9512F252229BF18F0031C72A /* Core */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9512F252229BF18F0031C72A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9512F256229BF18F0031C72A /* WJTextField.h */,
+				9512F254229BF18F0031C72A /* WJTextField.m */,
+				9512F258229BF18F0031C72A /* WJFloatingAnimatedTextField.h */,
+				9512F255229BF18F0031C72A /* WJFloatingAnimatedTextField.m */,
+				9512F257229BF18F0031C72A /* WJFloatingAnimatedTextFieldConfig.h */,
+				9512F253229BF18F0031C72A /* WJFloatingAnimatedTextFieldConfig.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9512F259229BF18F0031C72A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9512F25A229BF18F0031C72A /* WJDefine.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9512F25E229BF25F0031C72A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9512F26C229BF6DE0031C72A /* UIViewController+YJKeyBoard.h */,
+				9512F26B229BF6DD0031C72A /* UIViewController+YJKeyBoard.m */,
+				9512F25F229BF25F0031C72A /* FBKVOController+Extension.h */,
+				9512F262229BF25F0031C72A /* FBKVOController+Extension.m */,
+				9512F261229BF25F0031C72A /* NSString+Size.h */,
+				9512F264229BF25F0031C72A /* NSString+Size.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9512F237229BF0430031C72A /* WJFloatingAnimatedTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9512F24E229BF0490031C72A /* Build configuration list for PBXNativeTarget "WJFloatingAnimatedTextField" */;
+			buildPhases = (
+				E275014F12CF68B7A38960CD /* [CP] Check Pods Manifest.lock */,
+				9512F234229BF0430031C72A /* Sources */,
+				9512F235229BF0430031C72A /* Frameworks */,
+				9512F236229BF0430031C72A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJFloatingAnimatedTextField;
+			productName = WJFloatingAnimatedTextField;
+			productReference = 9512F238229BF0430031C72A /* WJFloatingAnimatedTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9512F230229BF0430031C72A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = VanJay;
+				TargetAttributes = {
+					9512F237229BF0430031C72A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 9512F233229BF0430031C72A /* Build configuration list for PBXProject "WJFloatingAnimatedTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9512F22F229BF0430031C72A;
+			productRefGroup = 9512F239229BF0430031C72A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9512F237229BF0430031C72A /* WJFloatingAnimatedTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9512F236229BF0430031C72A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9512F248229BF0490031C72A /* LaunchScreen.storyboard in Resources */,
+				9512F245229BF0490031C72A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E275014F12CF68B7A38960CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WJFloatingAnimatedTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9512F234229BF0430031C72A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9512F25D229BF18F0031C72A /* WJFloatingAnimatedTextField.m in Sources */,
+				9512F25B229BF18F0031C72A /* WJFloatingAnimatedTextFieldConfig.m in Sources */,
+				9512F26D229BF6DE0031C72A /* UIViewController+YJKeyBoard.m in Sources */,
+				9512F240229BF0430031C72A /* ViewController.m in Sources */,
+				9512F24B229BF0490031C72A /* main.m in Sources */,
+				9512F267229BF25F0031C72A /* NSString+Size.m in Sources */,
+				9512F25C229BF18F0031C72A /* WJTextField.m in Sources */,
+				9512F265229BF25F0031C72A /* FBKVOController+Extension.m in Sources */,
+				9512F23D229BF0430031C72A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9512F246229BF0490031C72A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9512F247229BF0490031C72A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9512F24C229BF0490031C72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9512F24D229BF0490031C72A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9512F24F229BF0490031C72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB810113AAF92CA9DEC68E8 /* Pods-WJFloatingAnimatedTextField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUM2E6FK73;
+				INFOPLIST_FILE = WJFloatingAnimatedTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.vanjay.WJFloatingAnimatedTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9512F250229BF0490031C72A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1853D470FDB404BB6838C97 /* Pods-WJFloatingAnimatedTextField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUM2E6FK73;
+				INFOPLIST_FILE = WJFloatingAnimatedTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.vanjay.WJFloatingAnimatedTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9512F233229BF0430031C72A /* Build configuration list for PBXProject "WJFloatingAnimatedTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9512F24C229BF0490031C72A /* Debug */,
+				9512F24D229BF0490031C72A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9512F24E229BF0490031C72A /* Build configuration list for PBXNativeTarget "WJFloatingAnimatedTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9512F24F229BF0490031C72A /* Debug */,
+				9512F250229BF0490031C72A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9512F230229BF0430031C72A /* Project object */;
+}
